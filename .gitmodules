@@ -1,0 +1,4 @@
+[submodule "subprojects/libtommath-1.2.0"]
+	path = subprojects/libtommath-1.2.0
+	url = https://github.com/aeldidi/libtommath
+	branch = 1.2.0
