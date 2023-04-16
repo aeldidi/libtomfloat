@@ -1,10 +1,10 @@
 test_exe = executable(
-	'ex1',
-	files('ex1.c'),
-	dependencies: libtomfloat_dep, 
+    'ex1',
+    [files('ex1.c'), tomfloat_srcs],
+    include_directories: incdirs,
 )
 
 test(
-	'demos/ex1.c',
-	test_exe,
+    'demos/ex1.c',
+    test_exe,
 )
